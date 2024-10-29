@@ -1,0 +1,24 @@
+@use './sass/helpers/index' as *;
+
+.main-btn {
+  background-color: $mainColor;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.toggle {
+  display: block;
+  border: none;
+  background-color: $mainColor;
+  color: #fff;
+  font-size: 1.75rem;
+  border-radius: 10px;
+
+  @include breakpoint(md) {
+    display: none;
+  }
+}

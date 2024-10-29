@@ -1,0 +1,29 @@
+/*
+  ========
+  = Base =
+  ========
+*/
+@use './sass/base/base';
+
+/*
+  ==============
+  = Components =
+  ==============
+*/
+@use './sass/components/components';
+
+/*
+  ==========
+  = Header =
+  ==========
+*/
+@use './sass/layout/header';
+
+@use './sass/pages/page';
+
+/*
+  ==========
+  = Footer =
+  ==========
+*/
+@use './sass/layout/footer';

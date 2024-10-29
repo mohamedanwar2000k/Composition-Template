@@ -1,0 +1,27 @@
+@use './sass/helpers/index' as *;
+
+.border-heading {
+  position: relative;
+
+  h2 {
+    text-align: center;
+    background-color: $mainColor;
+    color: #fff;
+    margin: 3rem auto;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 0.25rem 2.5rem;
+
+    &::before {
+      content: '';
+      position: absolute;
+      background-color: $grayColor;
+      width: 100%;
+      height: 1.5px;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: -1;
+    }
+  }
+}

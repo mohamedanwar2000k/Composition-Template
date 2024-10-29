@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f6f6;
+  font-family: "Tahoma", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.form-control {
+  border: none;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
